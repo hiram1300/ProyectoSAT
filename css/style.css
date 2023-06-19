@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* Diseño header */
+header{
+    position: absolute;
+	height: 10%;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: #086878;
+}
+.div_1{
+    position: absolute;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+    background: #07b6d557;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.txt_principal{
+    font-family: 'Orbitron', sans-serif;
+	font-size: 180%;
+	color: #FFFFFF;
+}
+.div_content{
+    position: absolute;
+    background: #3d238057;
+    height: 40%;
+    width: 30%;
+    top: 20%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+	font-size: 130%;
+	color: #FFFFFF;
+}
+.btn{
+    background: #086878;
+    border-radius: 25px;
+    height: 15%;
+    width: 25%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+	font-size: 60%;
+	color: #FFFFFF;
+    cursor: pointer;
+}
